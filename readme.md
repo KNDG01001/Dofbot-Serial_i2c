@@ -13,7 +13,7 @@ DOFBOT 확장 보드(Expansion Board)는 기본적으로 I2C 통신을 사용하
 - **다양한 제어 모드**:
   - 🖥️ **GUI 컨트롤러**: 슬라이더를 이용한 직관적인 관절 제어
   - ⌨️ **CLI 모드**: 터미널 명령어를 통한 정밀 제어
-  - 🎯 **AI 트래킹**: YOLOv8 기반의 객체 추적 및 Visual Servoing (예정)
+  - 🎯 **AI 트래킹**: Pi0 기반의 객체 추적 및 Visual Servoing (예정)
 - **캘리브레이션 도구**: 물리적 조립 오차 보정을 위한 미세 조정 툴 제공
 
 ---
@@ -59,17 +59,13 @@ DOFBOT 확장 보드(Expansion Board)는 기본적으로 I2C 통신을 사용하
 
 Python 3.8 이상 환경에서 필요한 라이브러리를 설치합니다.
 
-```bash
-pip install pyserial opencv-python ultralytics tk
-```
-
 ### 3. 포트 설정
 
 모든 Python 스크립트(`*.py`) 상단에 있는 `PORT` 변수를 본인의 아두이노 포트 번호로 수정하세요.
 
 ```python
 # 예시
-PORT = 'COM6'  # Windows 장치 관리자에서 확인한 포트 번호
+PORT = 'COM6'  # Windows 장치 관리자에서 확인한 포트 번호, Windows 외 환경에서는 lsusb를 활용, 포트 확인
 BAUDRATE = 115200
 ```
 
