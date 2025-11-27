@@ -1,0 +1,8 @@
+prefix=/home/yahboom/dofbot_ws/install
+
+Name: dofbot3_config
+Description: Description of dofbot3_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
