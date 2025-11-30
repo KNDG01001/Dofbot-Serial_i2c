@@ -1,0 +1,2 @@
+Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit_config': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit_config
+Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit_config' returned '1': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit_config

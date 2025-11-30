@@ -1,0 +1,2 @@
+Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit
+Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit

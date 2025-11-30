@@ -1,0 +1,33 @@
+[0.756s] Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit
+[1.044s] -- The C compiler identification is GNU 11.4.0
+[1.513s] -- The CXX compiler identification is GNU 11.4.0
+[1.815s] -- Detecting C compiler ABI info
+[1.973s] -- Detecting C compiler ABI info - done
+[1.979s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.981s] -- Detecting C compile features
+[1.982s] -- Detecting C compile features - done
+[1.986s] -- Detecting CXX compiler ABI info
+[2.143s] -- Detecting CXX compiler ABI info - done
+[2.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.150s] -- Detecting CXX compile features
+[2.150s] -- Detecting CXX compile features - done
+[3.123s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[3.123s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.123s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.123s]   CMake did not find one.
+[3.123s] 
+[3.123s]   Could not find a package configuration file provided by "catkin" with any
+[3.123s]   of the following names:
+[3.123s] 
+[3.123s]     catkinConfig.cmake
+[3.123s]     catkin-config.cmake
+[3.123s] 
+[3.123s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.123s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.124s]   provides a separate development package or SDK, be sure it has been
+[3.124s]   installed.
+[3.124s] 
+[3.124s] [0m
+[3.124s] -- Configuring incomplete, errors occurred!
+[3.124s] See also "/home/sunbi/Manipulator/build/dofbot_moveit/CMakeFiles/CMakeOutput.log".
+[3.127s] Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '1': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit

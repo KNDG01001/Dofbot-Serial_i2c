@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000669] (-) JobUnselected: {'identifier': 'dofbot_control'}
+[0.000730] (dofbot_moveit) JobQueued: {'identifier': 'dofbot_moveit', 'dependencies': OrderedDict()}
+[0.000777] (dofbot_moveit) JobStarted: {'identifier': 'dofbot_moveit'}
+[0.009287] (dofbot_moveit) JobProgress: {'identifier': 'dofbot_moveit', 'progress': 'cmake'}
+[0.010044] (dofbot_moveit) JobProgress: {'identifier': 'dofbot_moveit', 'progress': 'build'}
+[0.011252] (dofbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunbi/Manipulator/build/dofbot_moveit', '--', '-j12', '-l12'], 'cwd': '/home/sunbi/Manipulator/build/dofbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sunbi'), ('GIT_ASKPASS', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/sunbi'), ('OLDPWD', '/home/sunbi/Manipulator'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-091652d0-8dc0-48bf-a7f8-ef9d468c3ca6.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ANTIGRAVITY_AGENT', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunbi'), ('NAME', 'DESKTOP-CEO27QH'), ('WSL_INTEROP', '/run/WSL/461_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/Sunbi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Sunbi/AppData/Local/Programs/Python/Python313/:/mnt/c/mingw64/bin:/mnt/c/Users/Sunbi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sunbi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sunbi/AppData/Roaming/npm:/mnt/c/Users/Sunbi/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Sunbi/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e70f195fd0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunbi/Manipulator/build/dofbot_moveit'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051401] (dofbot_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099679] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.200392] (dofbot_moveit) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300161] (-) TimerEvent: {}
+[0.358894] (dofbot_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.362698] (dofbot_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.373236] (dofbot_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.388678] (dofbot_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400285] (-) TimerEvent: {}
+[0.405050] (dofbot_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.450119] (dofbot_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.453069] (dofbot_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500415] (-) TimerEvent: {}
+[0.600829] (-) TimerEvent: {}
+[0.701186] (-) TimerEvent: {}
+[0.801495] (-) TimerEvent: {}
+[0.901872] (-) TimerEvent: {}
+[1.002379] (-) TimerEvent: {}
+[1.102692] (-) TimerEvent: {}
+[1.203056] (-) TimerEvent: {}
+[1.303404] (-) TimerEvent: {}
+[1.403731] (-) TimerEvent: {}
+[1.504057] (-) TimerEvent: {}
+[1.604414] (-) TimerEvent: {}
+[1.704798] (-) TimerEvent: {}
+[1.805211] (-) TimerEvent: {}
+[1.905504] (-) TimerEvent: {}
+[2.005840] (-) TimerEvent: {}
+[2.106211] (-) TimerEvent: {}
+[2.206747] (-) TimerEvent: {}
+[2.307064] (-) TimerEvent: {}
+[2.407445] (-) TimerEvent: {}
+[2.507811] (-) TimerEvent: {}
+[2.608196] (-) TimerEvent: {}
+[2.708626] (-) TimerEvent: {}
+[2.808934] (-) TimerEvent: {}
+[2.909296] (-) TimerEvent: {}
+[3.009627] (-) TimerEvent: {}
+[3.109946] (-) TimerEvent: {}
+[3.210269] (-) TimerEvent: {}
+[3.310608] (-) TimerEvent: {}
+[3.410900] (-) TimerEvent: {}
+[3.511245] (-) TimerEvent: {}
+[3.611578] (-) TimerEvent: {}
+[3.711938] (-) TimerEvent: {}
+[3.803059] (dofbot_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.812105] (-) TimerEvent: {}
+[3.872815] (dofbot_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[3.906537] (dofbot_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[3.912275] (-) TimerEvent: {}
+[4.012685] (-) TimerEvent: {}
+[4.113004] (-) TimerEvent: {}
+[4.121809] (dofbot_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[4.213099] (-) TimerEvent: {}
+[4.313420] (-) TimerEvent: {}
+[4.413780] (-) TimerEvent: {}
+[4.514110] (-) TimerEvent: {}
+[4.614450] (-) TimerEvent: {}
+[4.649279] (dofbot_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[4.660171] (dofbot_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[4.696619] (dofbot_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[4.714579] (-) TimerEvent: {}
+[4.814966] (-) TimerEvent: {}
+[4.915483] (-) TimerEvent: {}
+[5.015866] (-) TimerEvent: {}
+[5.116214] (-) TimerEvent: {}
+[5.216588] (-) TimerEvent: {}
+[5.316952] (-) TimerEvent: {}
+[5.417235] (-) TimerEvent: {}
+[5.517629] (-) TimerEvent: {}
+[5.573934] (dofbot_moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[5.601801] (dofbot_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.617743] (-) TimerEvent: {}
+[5.718125] (-) TimerEvent: {}
+[5.818645] (-) TimerEvent: {}
+[5.919031] (-) TimerEvent: {}
+[6.019397] (-) TimerEvent: {}
+[6.119743] (-) TimerEvent: {}
+[6.220113] (-) TimerEvent: {}
+[6.320501] (-) TimerEvent: {}
+[6.420819] (-) TimerEvent: {}
+[6.521151] (-) TimerEvent: {}
+[6.535865] (dofbot_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[6.560809] (dofbot_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[6.580388] (dofbot_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[6.621237] (-) TimerEvent: {}
+[6.678866] (dofbot_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.721335] (-) TimerEvent: {}
+[6.787144] (dofbot_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[6.815501] (dofbot_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/sunbi/Manipulator/build/dofbot_moveit\n'}
+[6.821460] (-) TimerEvent: {}
+[6.866372] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 03_attached_object\x1b[0m\n'}
+[6.866586] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 02_motion_plan\x1b[0m\n'}
+[6.866669] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 06_multi_track_motion\x1b[0m\n'}
+[6.866987] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 01_random_move\x1b[0m\n'}
+[6.867077] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dofbot_kinematics\x1b[0m\n'}
+[6.867291] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 04_cartesian\x1b[0m\n'}
+[6.891477] (dofbot_moveit) StdoutLine: {'line': b'[ 12%] Built target dofbot_kinematics\n'}
+[6.904593] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dofbot_kinematics_ik_node\x1b[0m\n'}
+[6.904915] (dofbot_moveit) StdoutLine: {'line': b'[ 37%] Built target 03_attached_object\n'}
+[6.905024] (dofbot_moveit) StdoutLine: {'line': b'[ 37%] Built target 04_cartesian\n'}
+[6.905162] (dofbot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dofbot_kinematics_fk_node\x1b[0m\n'}
+[6.905356] (dofbot_moveit) StdoutLine: {'line': b'[ 50%] Built target 06_multi_track_motion\n'}
+[6.905664] (dofbot_moveit) StdoutLine: {'line': b'[ 62%] Built target 02_motion_plan\n'}
+[6.907021] (dofbot_moveit) StdoutLine: {'line': b'[ 75%] Built target 01_random_move\n'}
+[6.921649] (-) TimerEvent: {}
+[6.925693] (dofbot_moveit) StdoutLine: {'line': b'[100%] Built target dofbot_kinematics_ik_node\n'}
+[6.925878] (dofbot_moveit) StdoutLine: {'line': b'[100%] Built target dofbot_kinematics_fk_node\n'}
+[6.939353] (dofbot_moveit) CommandEnded: {'returncode': 0}
+[6.940006] (dofbot_moveit) JobProgress: {'identifier': 'dofbot_moveit', 'progress': 'install'}
+[6.949983] (dofbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunbi/Manipulator/build/dofbot_moveit'], 'cwd': '/home/sunbi/Manipulator/build/dofbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sunbi'), ('GIT_ASKPASS', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/sunbi'), ('OLDPWD', '/home/sunbi/Manipulator'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-091652d0-8dc0-48bf-a7f8-ef9d468c3ca6.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ANTIGRAVITY_AGENT', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunbi'), ('NAME', 'DESKTOP-CEO27QH'), ('WSL_INTEROP', '/run/WSL/461_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunbi/.antigravity-server/bin/b31a0ea425328717c6bd1cff12c6755fd3d63a9d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/Sunbi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Sunbi/AppData/Local/Programs/Python/Python313/:/mnt/c/mingw64/bin:/mnt/c/Users/Sunbi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sunbi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sunbi/AppData/Roaming/npm:/mnt/c/Users/Sunbi/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Sunbi/AppData/Local/Programs/Antigravity/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e70f195fd0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunbi/Manipulator/build/dofbot_moveit'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.958017] (dofbot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.958283] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/libdofbot_kinematics.a\n'}
+[6.958534] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_fk_node\n'}
+[6.958721] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_ik_node\n'}
+[6.958863] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/01_random_move\n'}
+[6.959164] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/02_motion_plan\n'}
+[6.959509] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/03_attached_object\n'}
+[6.959806] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/04_cartesian\n'}
+[6.960112] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/06_multi_track_motion\n'}
+[6.960299] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/include\n'}
+[6.960533] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/include/dofbot_moveit\n'}
+[6.960591] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/include/dofbot_moveit/dofbot_kinemarics.h\n'}
+[6.960639] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/include/dofbot_moveit/libdofbot_kinemarics.so\n'}
+[6.960680] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes\n'}
+[6.961193] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/base_link.STL\n'}
+[7.009409] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/rlink2.STL\n'}
+[7.013599] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/arm_link5.STL\n'}
+[7.021754] (-) TimerEvent: {}
+[7.047430] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link3.STL\n'}
+[7.113008] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link5.STL\n'}
+[7.121892] (-) TimerEvent: {}
+[7.179347] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/rlink1.STL\n'}
+[7.185811] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link2.STL\n'}
+[7.221998] (-) TimerEvent: {}
+[7.259385] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/llink1.STL\n'}
+[7.259706] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link4.STL\n'}
+[7.322125] (-) TimerEvent: {}
+[7.370647] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/llink2.STL\n'}
+[7.374758] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link1.STL\n'}
+[7.422244] (-) TimerEvent: {}
+[7.431631] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/rlink3.STL\n'}
+[7.439168] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/llink3.STL\n'}
+[7.446543] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf\n'}
+[7.446837] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/test.urdf\n'}
+[7.447211] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot_original.urdf\n'}
+[7.447282] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot.urdf\n'}
+[7.447445] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/yahboomcar_X3plus.urdf\n'}
+[7.447595] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch\n'}
+[7.447744] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py\n'}
+[7.447893] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch\n'}
+[7.448041] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__\n'}
+[7.448167] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__/test_headless.launch.cpython-310.pyc\n'}
+[7.448305] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/test_headless.launch.py\n'}
+[7.448518] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch\n'}
+[7.448666] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py\n'}
+[7.448813] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch\n'}
+[7.448961] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__\n'}
+[7.449147] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__/test_headless.launch.cpython-310.pyc\n'}
+[7.449284] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/test_headless.launch.py\n'}
+[7.449501] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf\n'}
+[7.449556] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/test.urdf\n'}
+[7.449639] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot_original.urdf\n'}
+[7.449689] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot.urdf\n'}
+[7.449729] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/yahboomcar_X3plus.urdf\n'}
+[7.449778] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/ament_index/resource_index/package_run_dependencies/dofbot_moveit\n'}
+[7.449817] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/ament_index/resource_index/parent_prefix_path/dofbot_moveit\n'}
+[7.449856] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.sh\n'}
+[7.449894] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.dsv\n'}
+[7.449931] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/path.sh\n'}
+[7.449967] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/path.dsv\n'}
+[7.450004] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.bash\n'}
+[7.450039] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.sh\n'}
+[7.450108] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.zsh\n'}
+[7.450153] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.dsv\n'}
+[7.450191] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.dsv\n'}
+[7.450233] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/ament_index/resource_index/packages/dofbot_moveit\n'}
+[7.450271] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake\n'}
+[7.450319] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake\n'}
+[7.450368] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.xml\n'}
+[7.451638] (dofbot_moveit) CommandEnded: {'returncode': 0}
+[7.463897] (dofbot_moveit) JobEnded: {'identifier': 'dofbot_moveit', 'rc': 0}
+[7.464759] (-) EventReactorShutdown: {}

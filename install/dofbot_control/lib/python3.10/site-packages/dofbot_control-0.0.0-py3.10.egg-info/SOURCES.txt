@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/dofbot_control/dofbot_control.egg-info/PKG-INFO
+../build/dofbot_control/dofbot_control.egg-info/SOURCES.txt
+../build/dofbot_control/dofbot_control.egg-info/dependency_links.txt
+../build/dofbot_control/dofbot_control.egg-info/entry_points.txt
+../build/dofbot_control/dofbot_control.egg-info/requires.txt
+../build/dofbot_control/dofbot_control.egg-info/top_level.txt
+../build/dofbot_control/dofbot_control.egg-info/zip-safe
+dofbot_control/__init__.py
+dofbot_control/real_dofbot_controller.py
+resource/dofbot_control
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
