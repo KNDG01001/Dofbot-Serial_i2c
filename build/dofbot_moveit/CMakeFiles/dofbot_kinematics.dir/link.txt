@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdofbot_kinematics.a CMakeFiles/dofbot_kinematics.dir/src/dofbot_kinematics.cpp.o
+/usr/bin/ranlib libdofbot_kinematics.a

@@ -1,0 +1,21 @@
+[0.741s] Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit
+[1.842s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.842s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.842s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.842s]   CMake did not find one.
+[1.842s] 
+[1.842s]   Could not find a package configuration file provided by "catkin" with any
+[1.842s]   of the following names:
+[1.842s] 
+[1.842s]     catkinConfig.cmake
+[1.842s]     catkin-config.cmake
+[1.842s] 
+[1.842s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.842s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.842s]   provides a separate development package or SDK, be sure it has been
+[1.843s]   installed.
+[1.843s] 
+[1.843s] [0m
+[1.843s] -- Configuring incomplete, errors occurred!
+[1.843s] See also "/home/sunbi/Manipulator/build/dofbot_moveit/CMakeFiles/CMakeOutput.log".
+[1.849s] Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '1': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit

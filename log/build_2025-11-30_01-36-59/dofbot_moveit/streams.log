@@ -1,0 +1,51 @@
+[0.292s] Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit
+[0.344s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.624s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.788s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.796s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.808s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.929s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.968s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.010s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.949s] -- Looking for pthread.h
+[5.151s] -- Looking for pthread.h - found
+[5.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.292s] -- Found Threads: TRUE  
+[5.360s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[5.395s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.615s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.583s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.598s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.632s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[7.699s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.762s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.762s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.008s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.037s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[9.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[9.946s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[9.946s]   By not providing "Findmoveit_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[9.946s]   project has asked CMake to find a package configuration file provided by
+[9.946s]   "moveit_visual_tools", but CMake did not find one.
+[9.946s] 
+[9.946s]   Could not find a package configuration file provided by
+[9.946s]   "moveit_visual_tools" with any of the following names:
+[9.946s] 
+[9.946s]     moveit_visual_toolsConfig.cmake
+[9.946s]     moveit_visual_tools-config.cmake
+[9.946s] 
+[9.946s]   Add the installation prefix of "moveit_visual_tools" to CMAKE_PREFIX_PATH
+[9.946s]   or set "moveit_visual_tools_DIR" to a directory containing one of the above
+[9.946s]   files.  If "moveit_visual_tools" provides a separate development package or
+[9.947s]   SDK, be sure it has been installed.
+[9.947s] 
+[9.947s] [0m
+[9.947s] -- Configuring incomplete, errors occurred!
+[9.947s] See also "/home/sunbi/Manipulator/build/dofbot_moveit/CMakeFiles/CMakeOutput.log".
+[9.960s] Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit

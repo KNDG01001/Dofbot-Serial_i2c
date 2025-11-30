@@ -1,0 +1,20 @@
+[0.532s] Invoking command in '/home/sunbi/Manipulator/dofbot_control': PYTHONPATH=/home/sunbi/Manipulator/build/dofbot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dofbot_control build --build-base /home/sunbi/Manipulator/build/dofbot_control/build install --record /home/sunbi/Manipulator/build/dofbot_control/install.log --single-version-externally-managed install_data
+[0.698s] running egg_info
+[0.698s] writing ../build/dofbot_control/dofbot_control.egg-info/PKG-INFO
+[0.699s] writing dependency_links to ../build/dofbot_control/dofbot_control.egg-info/dependency_links.txt
+[0.699s] writing entry points to ../build/dofbot_control/dofbot_control.egg-info/entry_points.txt
+[0.699s] writing requirements to ../build/dofbot_control/dofbot_control.egg-info/requires.txt
+[0.699s] writing top-level names to ../build/dofbot_control/dofbot_control.egg-info/top_level.txt
+[0.701s] reading manifest file '../build/dofbot_control/dofbot_control.egg-info/SOURCES.txt'
+[0.701s] writing manifest file '../build/dofbot_control/dofbot_control.egg-info/SOURCES.txt'
+[0.701s] running build
+[0.701s] running build_py
+[0.702s] running install
+[0.702s] running install_lib
+[0.703s] running install_data
+[0.703s] running install_egg_info
+[0.704s] removing '/home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages/dofbot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.705s] Copying ../build/dofbot_control/dofbot_control.egg-info to /home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages/dofbot_control-0.0.0-py3.10.egg-info
+[0.706s] running install_scripts
+[0.722s] writing list of installed files to '/home/sunbi/Manipulator/build/dofbot_control/install.log'
+[0.741s] Invoked command in '/home/sunbi/Manipulator/dofbot_control' returned '0': PYTHONPATH=/home/sunbi/Manipulator/build/dofbot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dofbot_control build --build-base /home/sunbi/Manipulator/build/dofbot_control/build install --record /home/sunbi/Manipulator/build/dofbot_control/install.log --single-version-externally-managed install_data

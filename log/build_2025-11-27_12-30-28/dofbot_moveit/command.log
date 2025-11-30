@@ -1,0 +1,2 @@
+Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit
+Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '1': /usr/bin/cmake /home/sunbi/Manipulator/dofbot_moveit -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunbi/Manipulator/install/dofbot_moveit
