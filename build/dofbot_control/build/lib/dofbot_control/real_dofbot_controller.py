@@ -9,19 +9,26 @@ import math
 
 # ==========================================
 # [설정] WSL2 내부 포트 이름 (보통 /dev/ttyUSB0)
-PORT = '/dev/ttyUSB0' 
-BAUDRATE = 115200
+# PORT and BAUDRATE are now ROS parameters
 # ==========================================
 
 class RealDofbotController(Node):
     def __init__(self):
         super().__init__('real_dofbot_controller')
         
+        # Declare parameters
+        self.declare_parameter('port', '/dev/ttyUSB0')
+        self.declare_parameter('baudrate', 115200)
+        
+        # Get parameters
+        port = self.get_parameter('port').get_parameter_value().string_value
+        baudrate = self.get_parameter('baudrate').get_parameter_value().integer_value
+        
         # 1. 아두이노 연결
         try:
-            self.ser = serial.Serial(PORT, BAUDRATE, timeout=1)
+            self.ser = serial.Serial(port, baudrate, timeout=1)
             time.sleep(2) # 리셋 대기
-            self.get_logger().info(f"Connected to Arduino at {PORT}")
+            self.get_logger().info(f"Connected to Arduino at {port} with baudrate {baudrate}")
         except Exception as e:
             self.get_logger().error(f"Failed to connect: {e}")
             exit()

@@ -1,0 +1,150 @@
+[0.189s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--paths', 'dofbot_moveit', 'dofbot_control']
+[0.190s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=['/home/sunbi/Manipulator/dofbot_moveit', '/home/sunbi/Manipulator/dofbot_control'], packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c27afdbb730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c27aff68a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c27aff68a60>>)
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:PathPackageDiscovery.discover(['/home/sunbi/Manipulator/dofbot_moveit', '/home/sunbi/Manipulator/dofbot_control'])
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_moveit) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sunbi/Manipulator/dofbot_moveit' with type 'ros.ament_cmake' and name 'dofbot_moveit'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunbi/Manipulator/dofbot_control) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sunbi/Manipulator/dofbot_control' with type 'ros.ament_python' and name 'dofbot_control'
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 357 installed packages in /opt/ros/humble
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'dofbot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'dofbot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunbi/Manipulator/build/dofbot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunbi/Manipulator/install/dofbot_control', 'merge_install': False, 'path': '/home/sunbi/Manipulator/dofbot_control', 'symlink_install': False, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] DEBUG:colcon.colcon_core.verb:Building package 'dofbot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunbi/Manipulator/build/dofbot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunbi/Manipulator/install/dofbot_moveit', 'merge_install': False, 'path': '/home/sunbi/Manipulator/dofbot_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.461s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.465s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunbi/Manipulator/dofbot_control' with build type 'ament_python'
+[0.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_control', 'ament_prefix_path')
+[0.473s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/hook/ament_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/hook/ament_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/hook/ament_prefix_path.sh'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunbi/Manipulator/dofbot_moveit' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunbi/Manipulator/dofbot_moveit'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunbi/Manipulator/dofbot_control'
+[0.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunbi/Manipulator/build/dofbot_moveit -- -j12 -l12
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunbi/Manipulator/dofbot_control': PYTHONPATH=/home/sunbi/Manipulator/build/dofbot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dofbot_control build --build-base /home/sunbi/Manipulator/build/dofbot_control/build install --record /home/sunbi/Manipulator/build/dofbot_control/install.log --single-version-externally-managed install_data
+[1.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunbi/Manipulator/dofbot_control' returned '0': PYTHONPATH=/home/sunbi/Manipulator/build/dofbot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dofbot_control build --build-base /home/sunbi/Manipulator/build/dofbot_control/build install --record /home/sunbi/Manipulator/build/dofbot_control/install.log --single-version-externally-managed install_data
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control' for CMake module files
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control' for CMake config files
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control/lib'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control/bin'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control/lib/pkgconfig/dofbot_control.pc'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control/lib/python3.10/site-packages'
+[1.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_control', 'pythonpath')
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/hook/pythonpath.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/hook/pythonpath.dsv'
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/hook/pythonpath.sh'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_control/bin'
+[1.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_control)
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/package.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/package.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/package.sh'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/package.bash'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_control/share/dofbot_control/package.zsh'
+[1.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunbi/Manipulator/install/dofbot_control/share/colcon-core/packages/dofbot_control)
+[27.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunbi/Manipulator/build/dofbot_moveit -- -j12 -l12
+[27.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunbi/Manipulator/build/dofbot_moveit
+[27.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_moveit)
+[27.254s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit' for CMake module files
+[27.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunbi/Manipulator/build/dofbot_moveit
+[27.255s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit' for CMake config files
+[27.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_moveit', 'cmake_prefix_path')
+[27.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.ps1'
+[27.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.dsv'
+[27.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.sh'
+[27.257s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/lib'
+[27.257s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/bin'
+[27.257s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc'
+[27.258s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/lib/python3.10/site-packages'
+[27.258s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/bin'
+[27.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.ps1'
+[27.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.dsv'
+[27.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.sh'
+[27.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.bash'
+[27.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.zsh'
+[27.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunbi/Manipulator/install/dofbot_moveit/share/colcon-core/packages/dofbot_moveit)
+[27.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_moveit)
+[27.262s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit' for CMake module files
+[27.262s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit' for CMake config files
+[27.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_moveit', 'cmake_prefix_path')
+[27.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.ps1'
+[27.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.dsv'
+[27.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.sh'
+[27.264s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/lib'
+[27.265s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/bin'
+[27.265s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc'
+[27.265s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/lib/python3.10/site-packages'
+[27.265s] Level 1:colcon.colcon_core.environment:checking '/home/sunbi/Manipulator/install/dofbot_moveit/bin'
+[27.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.ps1'
+[27.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.dsv'
+[27.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.sh'
+[27.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.bash'
+[27.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.zsh'
+[27.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunbi/Manipulator/install/dofbot_moveit/share/colcon-core/packages/dofbot_moveit)
+[27.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.271s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[27.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.313s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.313s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[27.314s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunbi/Manipulator/install/local_setup.ps1'
+[27.316s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunbi/Manipulator/install/_local_setup_util_ps1.py'
+[27.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunbi/Manipulator/install/setup.ps1'
+[27.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunbi/Manipulator/install/local_setup.sh'
+[27.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunbi/Manipulator/install/_local_setup_util_sh.py'
+[27.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunbi/Manipulator/install/setup.sh'
+[27.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunbi/Manipulator/install/local_setup.bash'
+[27.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunbi/Manipulator/install/setup.bash'
+[27.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunbi/Manipulator/install/local_setup.zsh'
+[27.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunbi/Manipulator/install/setup.zsh'

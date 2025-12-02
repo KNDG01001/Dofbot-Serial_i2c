@@ -1,0 +1,142 @@
+[0.319s] Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunbi/Manipulator/build/dofbot_moveit -- -j12 -l12
+[0.472s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.669s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.822s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.827s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.840s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.857s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.949s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.786s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.867s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[4.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.108s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.693s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.707s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.740s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.779s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.812s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.882s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[7.914s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.937s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[8.054s] -- Configuring done
+[8.183s] -- Generating done
+[8.231s] -- Build files have been written to: /home/sunbi/Manipulator/build/dofbot_moveit
+[8.320s] [35m[1mConsolidate compiler generated dependencies of target dofbot_kinematics[0m
+[8.322s] [35m[1mConsolidate compiler generated dependencies of target 02_motion_plan[0m
+[8.322s] [35m[1mConsolidate compiler generated dependencies of target 01_random_move[0m
+[8.322s] [35m[1mConsolidate compiler generated dependencies of target 04_cartesian[0m
+[8.322s] [35m[1mConsolidate compiler generated dependencies of target 03_attached_object[0m
+[8.323s] [35m[1mConsolidate compiler generated dependencies of target 06_multi_track_motion[0m
+[8.368s] [  6%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics.dir/src/dofbot_kinematics.cpp.o[0m
+[8.497s] [ 25%] [32mBuilding CXX object CMakeFiles/06_multi_track_motion.dir/src/06_multi_track_motion.cpp.o[0m
+[8.497s] [ 25%] [32mBuilding CXX object CMakeFiles/04_cartesian.dir/src/04_cartesian.cpp.o[0m
+[8.497s] [ 31%] [32mBuilding CXX object CMakeFiles/02_motion_plan.dir/src/02_motion_plan.cpp.o[0m
+[8.498s] [ 31%] [32mBuilding CXX object CMakeFiles/01_random_move.dir/src/01_random_move.cpp.o[0m
+[8.498s] [ 37%] [32mBuilding CXX object CMakeFiles/03_attached_object.dir/src/03_attached_object.cpp.o[0m
+[11.413s] [ 43%] [32m[1mLinking CXX static library libdofbot_kinematics.a[0m
+[11.476s] [ 43%] Built target dofbot_kinematics
+[11.496s] [35m[1mConsolidate compiler generated dependencies of target dofbot_kinematics_fk_node[0m
+[11.498s] [35m[1mConsolidate compiler generated dependencies of target dofbot_kinematics_ik_node[0m
+[11.541s] [ 50%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics_ik_node.dir/src/dofbot_kinematics_ik.cpp.o[0m
+[11.542s] [ 56%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics_fk_node.dir/src/dofbot_kinematics_fk.cpp.o[0m
+[19.921s] [01m[K/home/sunbi/Manipulator/dofbot_moveit/src/06_multi_track_motion.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[19.921s] [01m[K/home/sunbi/Manipulator/dofbot_moveit/src/06_multi_track_motion.cpp:61:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.921s]    61 |     for (int i = 0; [01;35m[Ki < poses.size()[m[K; ++i) {
+[19.921s]       |                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[21.265s] [ 62%] [32m[1mLinking CXX executable dofbot_kinematics_ik_node[0m
+[21.280s] [ 68%] [32m[1mLinking CXX executable dofbot_kinematics_fk_node[0m
+[21.833s] [ 68%] Built target dofbot_kinematics_fk_node
+[21.833s] [ 68%] Built target dofbot_kinematics_ik_node
+[25.487s] [ 75%] [32m[1mLinking CXX executable 01_random_move[0m
+[25.512s] [ 81%] [32m[1mLinking CXX executable 02_motion_plan[0m
+[25.881s] [ 87%] [32m[1mLinking CXX executable 03_attached_object[0m
+[25.929s] [ 93%] [32m[1mLinking CXX executable 04_cartesian[0m
+[26.015s] [100%] [32m[1mLinking CXX executable 06_multi_track_motion[0m
+[26.270s] [100%] Built target 01_random_move
+[26.283s] [100%] Built target 02_motion_plan
+[26.400s] [100%] Built target 03_attached_object
+[26.437s] [100%] Built target 04_cartesian
+[26.500s] [100%] Built target 06_multi_track_motion
+[26.519s] Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunbi/Manipulator/build/dofbot_moveit -- -j12 -l12
+[26.533s] Invoking command in '/home/sunbi/Manipulator/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunbi/Manipulator/build/dofbot_moveit
+[26.542s] -- Install configuration: ""
+[26.542s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/libdofbot_kinematics.a
+[26.543s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_fk_node
+[26.543s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_fk_node" to ""
+[26.544s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_ik_node
+[26.546s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_ik_node" to ""
+[26.546s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/01_random_move
+[26.548s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/01_random_move" to ""
+[26.548s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/02_motion_plan
+[26.549s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/02_motion_plan" to ""
+[26.549s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/03_attached_object
+[26.552s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/03_attached_object" to ""
+[26.552s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/04_cartesian
+[26.554s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/04_cartesian" to ""
+[26.554s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/06_multi_track_motion
+[26.556s] -- Set runtime path of "/home/sunbi/Manipulator/install/dofbot_moveit/lib/dofbot_moveit/06_multi_track_motion" to ""
+[26.556s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/include
+[26.556s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/include/dofbot_moveit
+[26.557s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/include/dofbot_moveit/dofbot_kinemarics.h
+[26.557s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/include/dofbot_moveit/libdofbot_kinemarics.so
+[26.557s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes
+[26.557s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/base_link.STL
+[26.575s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/arm_link1.STL
+[26.597s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/rlink2.STL
+[26.597s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/arm_link5.STL
+[26.609s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/arm_link2.STL
+[26.634s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link3.STL
+[26.634s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link5.STL
+[26.635s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/rlink1.STL
+[26.635s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link2.STL
+[26.635s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/llink1.STL
+[26.635s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/base_link___.STL
+[26.702s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link4.STL
+[26.702s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/llink2.STL
+[26.702s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/arm_link3.STL
+[26.727s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/link1.STL
+[26.727s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/rlink3.STL
+[26.728s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/arm_link4.STL
+[26.758s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/meshes/llink3.STL
+[26.759s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf
+[26.759s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/test.urdf
+[26.759s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot_original.urdf
+[26.759s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot.urdf
+[26.759s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/yahboomcar_X3plus.urdf
+[26.759s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch
+[26.760s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_real.launch.py
+[26.760s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py
+[26.760s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch
+[26.760s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__
+[26.760s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__/test_headless.launch.cpython-310.pyc
+[26.760s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/test_headless.launch.py
+[26.761s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch
+[26.761s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_real.launch.py
+[26.761s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py
+[26.761s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__/test_headless.launch.cpython-310.pyc
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/test_headless.launch.py
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/test.urdf
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot_original.urdf
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot.urdf
+[26.762s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/yahboomcar_X3plus.urdf
+[26.763s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/ament_index/resource_index/package_run_dependencies/dofbot_moveit
+[26.763s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/ament_index/resource_index/parent_prefix_path/dofbot_moveit
+[26.763s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.sh
+[26.763s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.dsv
+[26.763s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/path.sh
+[26.764s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/environment/path.dsv
+[26.764s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.bash
+[26.764s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.sh
+[26.764s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.zsh
+[26.764s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/local_setup.dsv
+[26.765s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.dsv
+[26.765s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/ament_index/resource_index/packages/dofbot_moveit
+[26.765s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake
+[26.766s] -- Installing: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake
+[26.766s] -- Up-to-date: /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/package.xml
+[26.770s] Invoked command in '/home/sunbi/Manipulator/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunbi/Manipulator/build/dofbot_moveit
