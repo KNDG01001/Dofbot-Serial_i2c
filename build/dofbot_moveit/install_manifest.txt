@@ -30,11 +30,13 @@
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot_original.urdf
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot.urdf
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/urdf/yahboomcar_X3plus.urdf
+/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_simple.launch.py
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_real.launch.py
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/__pycache__/test_headless.launch.cpython-310.pyc
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/test_headless.launch.py
+/home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_simple.launch.py
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_real.launch.py
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py
 /home/sunbi/Manipulator/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch

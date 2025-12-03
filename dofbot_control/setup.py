@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'real_dofbot_controller = dofbot_control.real_dofbot_controller:main',
         ],
     },
 )

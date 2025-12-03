@@ -1,0 +1,15 @@
+description: Servo offset calibration for DOFBOT. offset = servo_angle - moveit_angle
+invert:
+  joint1: false
+  joint2: false
+  joint3: false
+  joint4: false
+  joint5: false
+  joint6: false
+offsets:
+  joint1: 0
+  joint2: 0
+  joint3: 0
+  joint4: 0
+  joint5: 0
+  joint6: 0
